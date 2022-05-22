@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "lib": ["es2019", "esnext.asynciterable"],
+    "types": ["reflect-metadata"],
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": ".",
+    "strict": true,
+    "pretty": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+  },
+  "include": ["./src/**/*", "./tests/**/*"],
+  "exclude": ["node_modules"],
+}
